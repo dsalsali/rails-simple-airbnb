@@ -5,3 +5,38 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Flat.create!(
+  name: 'Light & Spacious Garden Flat London',
+  address: '10 Clifton Gardens London W9 1DT',
+  description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
+  picture_url: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+Flat.create!(
+  name: 'Stylish House Close to River Thames',
+  address: '5 Queensmill Road London SW6 6JP',
+  description: 'Lovely warm comfortable and stylishly furnished house. Private bedroom and bathroom with shared living areas.',
+  picture_url: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200',
+  price_per_night: 65,
+  number_of_guests: 2
+)
+
+Flat.create!(
+  name: 'St Pancras Clock Tower Guest Suite',
+  address: 'Euston Rd London N1C 4QP',
+  description: 'A mini apartment within the clock tower apartment at St Pancras Station, with its own en suite bathroom and kitchen and sitting area.',
+  picture_url: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200',
+  price_per_night: 110,
+  number_of_guests: 2
+)
+
+Flat.create!(
+  name: 'Modern & light 2 bed flat (3min from station)',
+  address: '15 Gloucester Rd, South Kensington, London SW7 4PP',
+  description: 'Modern & light top-floor 2 bedroom flat (victorian conversion) - 3 minute walk from Brixton station (ten minutes to central London).',
+  picture_url: 'https://unsplash.com/photos/Wv65tpVIdDg6u',
+  price_per_night: 145,
+  number_of_guests: 4
+)
